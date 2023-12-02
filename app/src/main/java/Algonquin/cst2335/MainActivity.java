@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         binding.forecastButton.setOnClickListener(click -> {
         cityName = binding.cityTextField.getText().toString();
-        apiKey = "10fc0081830eb18157a9551c257d9dd9";
+        apiKey = "36b70149bbb1187da8fe770fd7435f2b";
         String stringUrl = null;
 
         try {
